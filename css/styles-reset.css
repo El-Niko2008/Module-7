@@ -53,7 +53,7 @@ body,
 Убираем стандартный маркер маркированному списку, у которого есть атрибут class
 */
 :where(ul[class]) {
-    letter-spacing: none;
+    list-style: none;
 }
 
 /**

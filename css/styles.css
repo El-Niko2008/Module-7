@@ -1,6 +1,93 @@
+/** Дополнительный сброс */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
+/** Задаем переменные */
+:root {
+    --color-brown: #754E29;
+    --color-black: #151618;
+    --color-tea-green: #556B2F;
+    --color-dark-green: #074114;
+    --color-light-green: #B8B58B;
+    --color-white: #FFFFFF;
+    --color-light-background: #F7F2EA;
+
+    --font-family-base: 'OpenSans Regular', sans-serif;
+    --font-family-accent:'Cormorant Regular', serif;
+
+    --container-width: 1200px;
+    --container-padding-x: 15px;
+
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    width: 1600px;
+}
+
+a {
+    color: var(--color-black);
+}
+
+.container {
+    max-width: var(--container-width);
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-logo {
+    flex-shrink: 0;
+    /* margin-right: 235px; */
+}
+
+.header-menu-list {
+    display: flex;
+    column-gap: 65px;
+    /* list-style-type: none; */
+}
+
+.header-menu-link {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1.4;
+}
+
+
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:768px) {
+
+}
+
+
+
+
+
+/** .header-burger-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: ;
+    height: ;
+} */
